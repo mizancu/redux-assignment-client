@@ -8,7 +8,8 @@
     "publicationYear": "2018",
     "reviews": [],
     "rating": 5,
-    "price": 50
+    "price": 50,
+    "status": true
   },
   {
     "title": "Recharge your down battery",
@@ -19,7 +20,8 @@
     "publicationYear": "2018",
     "reviews": [],
     "rating": 5,
-    "price": 40
+    "price": 40,
+    "status": true
   },
   {
     "title": "Atomic Habits",
@@ -30,7 +32,8 @@
     "publicationYear": "2022",
     "reviews": [],
     "rating": 5,
-    "price": 15
+    "price": 15,
+    "status": true
   },
   {
     "title": "Dopamine Detox",
@@ -41,7 +44,8 @@
     "publicationYear": "2022",
     "reviews": [],
     "rating": 5,
-    "price": 20
+    "price": 20,
+    "status": true
   },
   {
     "title": "A Christmas Carol",
@@ -52,7 +56,8 @@
     "publicationYear": "1995",
     "reviews": [],
     "rating": 4.5,
-    "price": 10
+    "price": 10,
+    "status": true
   },
   {
     "title": "Paradoxical Sajid",
@@ -63,7 +68,8 @@
     "publicationYear": "2017",
     "reviews": [],
     "rating": 5,
-    "price": 13
+    "price": 13,
+    "status": true
   },
   {
     "title": "Twilight",
@@ -74,7 +80,8 @@
     "publicationYear": "2009",
     "reviews": [],
     "rating": 4.5,
-    "price": 10
+    "price": 10,
+    "status": true
   },
   {
     "title": "Alien Invasion",
@@ -85,7 +92,8 @@
     "publicationYear": "1998",
     "reviews": [],
     "rating": 4.5,
-    "price": 12
+    "price": 12,
+    "status": true
   },
   {
     "title": "Wings Of Fire",
@@ -96,7 +104,8 @@
     "publicationYear": "2008",
     "reviews": [],
     "rating": 5,
-    "price": 20
+    "price": 20,
+    "status": true
   },
   {
     "title": "Chokher Bali",
@@ -107,7 +116,8 @@
     "publicationYear": "1903",
     "reviews": [],
     "rating": 5,
-    "price": 20
+    "price": 20,
+    "status": true
   },
   {
     "title": "Aguner Poroshmoni",
@@ -118,7 +128,8 @@
     "publicationYear": "1995",
     "reviews": [],
     "rating": 5,
-    "price": 25
+    "price": 25,
+    "status": true
   },
   {
     "title": "Amar Ache Jol",
@@ -129,7 +140,8 @@
     "publicationYear": "1985",
     "reviews": [],
     "rating": 5,
-    "price": 30
+    "price": 30,
+    "status": true
   },
   {
     "title": "Grihodaho",
@@ -140,7 +152,8 @@
     "publicationYear": "2016",
     "reviews": [],
     "rating": 4.5,
-    "price": 10
+    "price": 10,
+    "status": true
   },
   {
     "title": "Putul Nacher Itikotha",
@@ -151,7 +164,8 @@
     "publicationYear": "1948",
     "reviews": [],
     "rating": 4.5,
-    "price": 5
+    "price": 5,
+    "status": true
   },
   {
     "title": "Atashi Mami",
@@ -162,7 +176,8 @@
     "publicationYear": "1935",
     "reviews": [],
     "rating": 4.5,
-    "price": 5
+    "price": 5,
+    "status": true
   },
   {
     "title": "Kapalkundola",
@@ -173,7 +188,8 @@
     "publicationYear": "1866",
     "reviews": [],
     "rating": 5,
-    "price": 15
+    "price": 15,
+    "status": true
   },
   {
     "title": "Bisher Banshi",
@@ -184,7 +200,8 @@
     "publicationYear": "1920",
     "reviews": [],
     "rating": 5,
-    "price": 20
+    "price": 20,
+    "status": true
   },
   {
     "title": "Agni Bina",
@@ -195,7 +212,8 @@
     "publicationYear": "1922",
     "reviews": [],
     "rating": 5,
-    "price": 22
+    "price": 22,
+    "status": true
   },
   {
     "title": "Shesher Kobita",
@@ -206,7 +224,8 @@
     "publicationYear": "1929",
     "reviews": [],
     "rating": 4.5,
-    "price": 12
+    "price": 12,
+    "status": true
   },
   {
     "title": "Lal Nil Dipabali",
@@ -217,6 +236,55 @@
     "publicationYear": "1976",
     "reviews": [],
     "rating": 4,
-    "price": 5
+    "price": 5,
+    "status": true
+  },
+  {
+    "title": "Bisher Banshi-2",
+    "description": "Bisher Banshi by Kazi Nazrul Islam is one of the most popular Bangla poem books and this book is written by Kazi Nazrul Islam. YOu will find something interesting poem.",
+    "image": "https://bdebooks.com/wp-content/uploads/2023/01/image-41-209x296.jpg",
+    "author": " KAZI NAZRUL ISLAM",
+    "genre": "Poetry",
+    "publicationYear": "1920",
+    "reviews": [],
+    "rating": 5,
+    "price": 20,
+    "status": true
+  },
+  {
+    "title": "Agni Bina-2",
+    "description": "Agnibeena is the first poetry book written by Kazi Nazrul Islam, one of the most famous Bengali poet of the first half of the twentieth century. It was published in the month of Kartik, the Bengali year 1329. There are twelve poems in this book..",
+    "image": "https://bdebooks.com/wp-content/uploads/2023/01/Agni-Bina-By-Kazi-Nazrul-Islam-270x430.jpg",
+    "author": "KAZI NAZRUL ISLAM",
+    "genre": "Poetry",
+    "publicationYear": "1922",
+    "reviews": [],
+    "rating": 5,
+    "price": 22,
+    "status": true
+  },
+  {
+    "title": "Shesher Kobita-2",
+    "description": "Shesher Kabita is a novel by Rabindranath Tagore. The novel was serialised in 1928, from Bhadra to Choitro in the magazine Probashi, and was published in book form the following year. It has been translated into English as The Last Poem and Farewell song.",
+    "image": "https://bdebooks.com/wp-content/uploads/2023/02/shesher-kobita-by-rabindranath-tagore1.jpg",
+    "author": "RABINDRANATH TAGORE",
+    "genre": "Novels",
+    "publicationYear": "1929",
+    "reviews": [],
+    "rating": 4.5,
+    "price": 12,
+    "status": true
+  },
+  {
+    "title": "Lal Nil Dipabali-2",
+    "description": "Humayun Azad was a Bangladeshi poet, novelist, short-story writer, critic, linguist, columnist and professor of Dhaka University. He wrote more than sixty titles. He was awarded the Bangla Academy Literary Award in 1986 for his contributions to Bengali linguistics.",
+    "image": "https://bdebooks.com/wp-content/uploads/2023/01/Lal-Nil-Dipabali-By-Humayun-Azad-199x296.jpg",
+    "author": "HUMAYUN AZAD",
+    "genre": "Essay",
+    "publicationYear": "1976",
+    "reviews": [],
+    "rating": 4,
+    "price": 5,
+    "status": true
   }
 ]
