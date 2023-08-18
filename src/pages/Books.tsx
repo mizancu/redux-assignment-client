@@ -1,21 +1,21 @@
-import ProductCard from '@/components/ProductCard';
+import BookCard from '@/components/BookCard';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
 import { Switch } from '@/components/ui/switch';
-import { useToast } from '@/components/ui/use-toast';
+// import { useToast } from '@/components/ui/use-toast';
 import { IBook } from '@/types/globalTypes';
 import { useEffect, useState } from 'react';
 
 export default function Books() {
   const [data, setData] = useState<IBook[]>([]);
   useEffect(() => {
-    fetch('http://localhost:5000/products')
+    fetch('http://localhost:5000/books')
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
-  console.log(data);
+  // console.log(data);
 
-  const { toast } = useToast();
+  // const { toast } = useToast();
 
   //! Dummy Data
 
@@ -28,16 +28,16 @@ export default function Books() {
     console.log(value);
   };
 
-  let productsData;
+  let booksData;
 
   if (status) {
-    productsData = data?.filter(
+    booksData = data?.filter(
       (item) => item.status === true && item.price < priceRange
     );
   } else if (priceRange > 0) {
-    productsData = data.filter((item) => item.price < priceRange);
+    booksData = data.filter((item) => item.price < priceRange);
   } else {
-    productsData = data;
+    booksData = data;
   }
 
   return (
@@ -65,8 +65,8 @@ export default function Books() {
         </div>
       </div>
       <div className="col-span-9 grid grid-cols-3 gap-10 pb-20">
-        {productsData?.map((product) => (
-          <ProductCard product={product} />
+        {booksData?.map((book) => (
+          <BookCard book={book} />
         ))}
       </div>
     </div>
