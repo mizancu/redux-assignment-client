@@ -1,10 +1,15 @@
 import { Button } from '@/components/ui/button';
 import banner from '@/assets/images/banner.jpg';
-import bookPile from '@/assets/images/bookPile.png';
 import { Link } from 'react-router-dom';
 import Footer from '@/layouts/Footer';
+import { useGetBooksQuery } from '@/redux/api/apiSlice';
+import { IBook } from '@/types/globalTypes';
+import BookCard from '@/components/BookCard';
+import Loader from '@/components/ui/Loader';
 
 export default function Home() {
+  const { data } = useGetBooksQuery(undefined);
+  console.log(data);
   return (
     <>
       <div className="grid grid-cols-2 justify-between items-center h-[calc(100vh-80px)] max-w-7xl mx-auto ">
@@ -30,16 +35,25 @@ export default function Home() {
           <img src={banner} alt="" />
         </div>
       </div>
-      <div className="mb-96">
-        <div>
-          <img className="mx-auto" src={bookPile} alt="" />
-        </div>
+      <div className="mb-60 px-10 xl:px-20">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-3xl font-black text-primary uppercase mt-10">
-            Read all kind of books here...
+          <h1 className="text-5xl font-black text-primary uppercase mt-10">
+            Recently added top 10 books
           </h1>
+          {data === undefined ? (
+            <Loader />
+          ) : (
+            <div className="col-span- grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-20 xl:gap-10 2xl:gap-24 py-20">
+              {[...data]
+                .sort((a, b) => b.rating - a.rating)
+                .slice(0, 10)
+                .map((book: IBook) => (
+                  <BookCard book={book} key={book._id} />
+                ))}
+            </div>
+          )}
           <Button className="mt-10" asChild>
-            <Link to="/products">Brows all books</Link>
+            <Link to="/books">Brows all books</Link>
           </Button>
         </div>
       </div>
