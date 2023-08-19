@@ -16,7 +16,7 @@ export default function BookCard({ book }: IProps) {
   return (
     <div>
       <div className="rounded-2xl h-[480px] flex flex-col items-start justify-between p-5 overflow-hidden shadow-md border border-gray-100 hover:shadow-2xl hover:scale-[102%] transition-all gap-2">
-        <Link to={`/product-details/${book._id}`} className="w-full">
+        <Link to={`/books/${book._id}`} className="w-full">
           <img src={book?.image} alt="product" />
           <h1 className="text-xl font-semibold">{book?.title}</h1>
         </Link>
@@ -26,7 +26,7 @@ export default function BookCard({ book }: IProps) {
         </p>
         <p className="text-sm">Price: {book?.price}</p>
         <Button variant="default" onClick={() => handleAddBook(book)}>
-          Add to cart
+          Add to wishlist
         </Button>
       </div>
     </div>

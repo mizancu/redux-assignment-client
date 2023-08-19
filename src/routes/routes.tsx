@@ -5,7 +5,7 @@ import NotFound from '@/pages/NotFound';
 import Home from '@/pages/Home';
 import Checkout from '@/pages/Checkout';
 import Signup from '@/pages/Signup';
-import ProductDetails from '@/pages/ProductDetails';
+import BookDetails from '@/pages/BookDetails';
 import Books from '@/pages/Books';
 
 const routes = createBrowserRouter([
@@ -22,8 +22,8 @@ const routes = createBrowserRouter([
         element: <Books />,
       },
       {
-        path: '/product-details/:id',
-        element: <ProductDetails />,
+        path: '/books/:id',
+        element: <BookDetails />,
       },
       {
         path: '/checkout',
